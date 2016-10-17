@@ -1,0 +1,120 @@
+html{
+	font-size: 10px;
+	height: 100%;
+}
+@media (min-width:768px){
+	html{
+		font-size: 18px;
+	}
+}
+@media (min-width:996px){
+	html{
+		font-size: 14px;
+	}
+}
+body{
+	height: 100%;
+}
+h1{
+	font-size: 32px;
+	line-height: 3.5rem;
+}
+p{	
+	line-height: 2rem;
+	color: #FFFCFC
+}
+.container-fluid{
+	width: 100%;
+	text-align: center;
+}
+.container-fluid:before{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+#icon-box{
+	margin-top: 2rem;
+}
+#intro-box{
+	margin-top: 1rem;
+}
+#header{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;	
+	background-color: #5EAEF7;
+	color: #fff;
+}
+#icon-box>img{
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+
+}
+#content{
+	padding-top: 2rem;
+}
+.input-wrapper{
+	text-align: left;
+	display: block;
+	height: 3.5rem;
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	overflow: hidden;
+	position: relative;
+}
+.input-wrapper>input{
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border:1px solid #CECECE;
+	border-radius: 2px;
+	width: 100%;
+	padding: .75em .8em;
+	box-sizing:border-box;
+}
+#class{
+	width: 65%;
+	text-align: left;
+}
+#gender-select{
+	display: inline-block;
+	width: 6rem;
+	height: 3.5rem;
+	float:right; 
+}
+#gender-select>option{
+	text-align: center;
+}
+#button-wrapper{
+	padding-top: .5rem;
+}
+.sign-button{
+	width: 75%;
+	height: 4rem;
+	font-size: 1.8rem;
+	border-radius: 5px;
+	background-color: #5EAEF7;
+	color: #fff;
+	border: none;
+}
+.error{
+	position: absolute;
+	top: 0;
+	right: .5rem;
+	line-height: 3.5rem;
+	color: #FD4C4C;
+	cursor: text;
+}
+.class-error{
+	right: 9.2rem;
+}
+#footer{
+	font-size: 4px;
+	text-align: center;
+	padding-top: 2rem;
+	line-height: 2.5rem;
+	color: #BFBFBF;
+	padding-bottom: 8rem;
+}
