@@ -11,6 +11,13 @@ html{
 	html{
 		font-size: 14px;
 	}
+	#content{
+		width: 760px;
+		margin:0 auto;
+	}
+	.sign-button:hover{
+		cursor: pointer;
+	}
 }
 body{
 	height: 100%;
@@ -46,7 +53,7 @@ p{
 	background-color: #5EAEF7;
 	color: #fff;
 }
-#icon-box>img{
+#icon-box img{
 	width: 10rem;
 	height: 10rem;
 	border-radius: 50%;
@@ -82,7 +89,8 @@ p{
 	display: inline-block;
 	width: 6rem;
 	height: 3.5rem;
-	float:right; 
+	float:right;
+	color: #212121; 
 }
 #gender-select>option{
 	text-align: center;
@@ -99,6 +107,7 @@ p{
 	color: #fff;
 	border: none;
 }
+
 .error{
 	position: absolute;
 	top: 0;
